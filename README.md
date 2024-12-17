@@ -89,7 +89,7 @@ Before running the script, ensure you have the following installed:
 
 ## Output
 
-- Model: The trained LSTM model is saved as stock_forecasting_model.keras.
+- Model: The trained LSTM model is saved as `stock_forecasting_model.keras`.
 - Visualization: A plot showing actual stock prices versus predicted prices is displayed.
 
 ---
