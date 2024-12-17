@@ -64,3 +64,57 @@ Before running the script, ensure you have the following installed:
 - Required Python libraries (install via `pip`):
   ```bash
   pip install numpy pandas matplotlib scikit-learn tensorflow alpaca-trade-api
+
+- An **Alpaca API key** and **secret key** are required. Replace the placeholders in the `config.py` file:
+
+  ```python
+  ALPACA_API_KEY = "your_api_key_here"
+  ALPACA_SECRET_KEY = "your_api_secret_here"
+  ```
+
+---
+
+## Running the Script
+
+ 1. Clone the repository and navigate to the project directory.
+ 2. Ensure `config.py` contains valid Alpaca API credentials.
+ 3. Run the script
+
+  ```bash
+  python stock_prediction.py
+  ```
+ 4. A visualization of predicted vs. actual prices will appear after training is complete.
+
+---
+
+## Output
+
+- Model: The trained LSTM model is saved as stock_forecasting_model.keras.
+- Visualization: A plot showing actual stock prices versus predicted prices is displayed.
+
+---
+
+## Purpose
+
+This project serves as a demonstration of my fluency with:
+
+- Time series modeling techniques
+- Deep learning using LSTM
+- API data integration
+- Data preprocessing and visualization
+
+The script highlights my ability to leverage machine learning tools to solve real-world problems efficiently.
+
+---
+
+## Notes
+
+- The code is structured for clarity and educational purposes.
+- The stock ticker and date range can be adjusted for other stocks.
+- The model can be further optimized or extended for production-grade applications.
+
+---
+
+## Disclaimer
+
+The predictions made by this model are for educational purposes only and should not be used for actual trading or financial decisions.
