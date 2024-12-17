@@ -10,9 +10,7 @@ from tensorflow.keras.layers import Input, LSTM, Dense
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 import datetime
-
-ALPACA_API_KEY = "your_api_key_here"
-ALPACA_SECRET_KEY = "your_secret_key_here"
+from config import ALPACA_API_KEY, ALPACA_SECRET_KEY
 
 client = StockHistoricalDataClient(ALPACA_API_KEY, ALPACA_SECRET_KEY)
 
